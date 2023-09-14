@@ -1,4 +1,5 @@
 using Figures;
+using Interfaces;
 using NUnit.Framework;
 
 namespace GeometryLibrary.Tests;
@@ -8,7 +9,7 @@ public class GeometryTests
     [Test]
     public void CircleAreaCalculation()
     {
-        var circle = new Circle(5);
+        IFigure circle = new Circle(5);
 
         var area = circle.CalculateArea();
 
@@ -18,7 +19,7 @@ public class GeometryTests
     [Test]
     public void TriangleAreaCalculation()
     {
-        var triangle = new Triangle(3, 4, 5);
+        IFigure triangle = new Triangle(3, 4, 5);
 
         var area = triangle.CalculateArea();
 

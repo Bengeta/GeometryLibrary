@@ -1,5 +1,7 @@
+using Interfaces;
+
 namespace Figures;
-public class Triangle : Shape
+public class Triangle : IFigure
 {
     private double SideA { get; }
     private double SideB { get; }
@@ -17,16 +19,15 @@ public class Triangle : Shape
         SideC = sideC;
     }
 
-    public override double CalculateArea()
+    public double CalculateArea()
     {
         var s = (SideA + SideB + SideC) / 2;
         return Math.Sqrt(s * (s - SideA) * (s - SideB) * (s - SideC));
     }
 
-    // Метод для проверки, является ли треугольник прямоугольным
     public bool IsRightTriangle()
     {
-        double[]  sides = { SideA, SideB, SideC };
+        double[] sides = { SideA, SideB, SideC };
         Array.Sort(sides);
 
         return Math.Pow(sides[0], 2) + Math.Pow(sides[1], 2) == Math.Pow(sides[2], 2);

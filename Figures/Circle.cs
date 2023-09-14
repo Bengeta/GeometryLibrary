@@ -1,5 +1,7 @@
+using Interfaces;
+
 namespace Figures;
-public class Circle : Shape
+public class Circle : IFigure
 {
     private double Radius { get; }
 
@@ -10,7 +12,7 @@ public class Circle : Shape
         Radius = radius;
     }
 
-    public override double CalculateArea()
+    public double CalculateArea()
     {
         return Math.PI * Radius * Radius;
     }
