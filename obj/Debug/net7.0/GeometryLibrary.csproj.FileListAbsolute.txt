@@ -1,0 +1,12 @@
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.csproj.AssemblyReference.cache
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.AssemblyInfoInputs.cache
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.AssemblyInfo.cs
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.csproj.CoreCompileInputs.cache
+/home/bender/Документы/GeometryLibrary/bin/Debug/net7.0/GeometryLibrary.deps.json
+/home/bender/Документы/GeometryLibrary/bin/Debug/net7.0/GeometryLibrary.dll
+/home/bender/Документы/GeometryLibrary/bin/Debug/net7.0/GeometryLibrary.pdb
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.dll
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/refint/GeometryLibrary.dll
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/GeometryLibrary.pdb
+/home/bender/Документы/GeometryLibrary/obj/Debug/net7.0/ref/GeometryLibrary.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PmEfgWHrrw7WMyu8Lg6WooUfBdFomPU95+T2gCDnpxJQJG66urFPjv+FOYf6zki7I7dAoKH6y6Pjivy6HSilfw==",
+  "success": true,
+  "projectFilePath": "/home/bender/Документы/GeometryLibrary/GeometryLibrary.csproj",
+  "expectedPackageFiles": [
+    "/home/bender/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/bender/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/home/bender/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/home/bender/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

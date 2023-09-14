@@ -1,0 +1,4 @@
+SELECT P.ProductName, COALESCE(C.CategoryName, 'Без категории') AS CategoryName
+FROM Products AS P
+LEFT JOIN ProductCategory AS PC ON P.ProductID = PC.ProductID
+LEFT JOIN Categories AS C ON PC.CategoryID = C.CategoryID;
